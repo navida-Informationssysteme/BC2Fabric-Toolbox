@@ -27,9 +27,9 @@ Follow the Semantic Link Labs powered workflow: import the ready-made notebook d
 
 3.  **Update the Global Configuration** at the very top of the notebook. You must define the following three parameters:
 
-      * **`SQL_ENDPOINT`**: The SQL Analytics Endpoint string of your Fabric Lakehouse or Warehouse (e.g., `xy123...datawarehouse.fabric.microsoft.com`).
-      * **`DATABASE_NAME`**: The name of the Lakehouse or Warehouse where the data resides (should be `bc2fabric_mirror`).
-      * **`COMPANY_NAME`**: The specific company name you want the Power BI report to filter by default (e.g., `CRONUS DE`).
+      * **`SQL_ENDPOINT`**: The SQL Analytics Endpoint string of your Fabric Mirroring Database (e.g., `xy123...datawarehouse.fabric.microsoft.com`).
+      * **`DATABASE_NAME`**: The name of Mirroring Database where the data resides (should be `bc2fabric_mirror`).
+      * **`COMPANY_NAME`**: The specific company name you want the Power BI default (e.g., `CRONUS DE`).
 
 4.  **Run the notebook top to bottom.** The script will perform the following actions:
 
