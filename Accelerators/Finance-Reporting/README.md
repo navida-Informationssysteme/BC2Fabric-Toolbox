@@ -19,7 +19,7 @@ Follow the Semantic Link Labs powered workflow: import the ready-made notebook d
     labs.import_notebook_from_web(
         overwrite=True, 
         notebook_name="Finance_Accelerator_Installer",
-        url="https://raw.githubusercontent.com/navida-Informationssysteme/BC2Fabric-Toolbox/main/Accelerators/Finance-Reporting/finance_views_installer.ipynb"
+        url="https://raw.githubusercontent.com/navida-Informationssysteme/BC2Fabric-Toolbox/main/Accelerators/Finance-Reporting/finance_installer.ipynb"
     )
     ```
 
@@ -39,3 +39,5 @@ Follow the Semantic Link Labs powered workflow: import the ready-made notebook d
       * **Refresh:** Trigger an initial dataset refresh.
 
 Once the notebook finishes successfully, the **BC2Fabric\_Finance\_App** report will be ready for use in your workspace.
+5. **Cleanup**
+Delete the notebook that was created in step 1 
