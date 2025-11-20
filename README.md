@@ -1,4 +1,4 @@
-![BC2Fabric Toolbox banner](assets/App-banner.png)
+![BC2Fabric Toolbox banner](https://github.com/navida-Informationssysteme/BC2Fabric-Toolbox/blob/main/Assets/App-banner.png?raw=true)
 
 # BC2Fabric Toolbox
 
