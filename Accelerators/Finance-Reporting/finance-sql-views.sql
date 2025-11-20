@@ -1,4 +1,9 @@
-create schema bc_finance
+IF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = 'bc_finance')
+BEGIN
+    EXEC('CREATE SCHEMA [bc_finance]')
+END;
+
+GO
 
 CREATE OR ALTER VIEW [bc_finance].[GLEntriesBalanceSheet]
 AS
